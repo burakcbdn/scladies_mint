@@ -1,0 +1,1 @@
+const walletConnected = new CustomEvent('walletConnected');
