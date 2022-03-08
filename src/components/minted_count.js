@@ -8,7 +8,6 @@ function MintedCount() {
       method: "GET",
     });
 
-    
     const psData = await preSaleResult.json();
     console.log(psData);
     setPreSale(psData);
@@ -36,7 +35,7 @@ function MintedCount() {
 
   return (
     <div className="total_minted" id="total_minted">
-      {mintedCount}/{preSale ? "3268" : "6434"}
+      777 / 777
     </div>
   );
 }

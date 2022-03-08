@@ -41,9 +41,9 @@ function App() {
           <div className="text_content">
             <div className="scl_logo"></div>
             <MintedCount />
-            <div className="minted">MINTED</div>
-            <ConnectWalletButton onWalletConnected={onWalletConnected} />
-            <MintCounter />
+            <div className="minted">Genesis Soldout</div>
+            {/* <ConnectWalletButton onWalletConnected={onWalletConnected} /> */}
+            {/* <MintCounter /> */}
             <div className="win_image"></div>
           </div>
           
